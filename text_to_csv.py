@@ -31,7 +31,7 @@ with open(TEXT_LOCATION) as f:
                     continue
                 name = name_text[0]
                 text = "".join(name_text[1:])
-                text.replace(",", "")
+                text = text.replace(",", "")
                 csv.write(",".join([date, name, text]))
     f.close()
 csv.close()
