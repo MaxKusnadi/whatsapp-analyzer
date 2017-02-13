@@ -1,6 +1,6 @@
 
-TEXT_LOCATION = "data/NERDS.txt"
-CSV_LOCATION = "data/NERDS.csv"
+TEXT_LOCATION = "data/PINUS.txt"
+CSV_LOCATION = "data/PINUS.csv"
 
 import logging
 
