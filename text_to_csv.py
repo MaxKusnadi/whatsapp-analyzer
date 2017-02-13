@@ -5,7 +5,7 @@ CSV_LOCATION = "data/NERDS.csv"
 import logging
 
 csv = open(CSV_LOCATION, "w")
-csv.write(",".join(["Date", "Time", "Name", "Text"]))
+csv.write(",".join(["Date", "Name", "Text"]))
 csv.write("\n")
 with open(TEXT_LOCATION) as f:
     for line in f:
@@ -19,6 +19,7 @@ with open(TEXT_LOCATION) as f:
             if len(date_content) == 1:
                 continue
             date = date_content[0]
+            date = date.replace(",", "")
             content = "".join(date_content[1:])
             try:
                 name_text = content.split(":")
