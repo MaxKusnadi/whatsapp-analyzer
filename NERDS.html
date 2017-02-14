@@ -11784,7 +11784,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Importing pandas and ggplot</span>
@@ -11811,7 +11811,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[61]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -11826,7 +11826,7 @@ div#notebook {
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[61]:</div>
+<div class="prompt output_prompt">Out[2]:</div>
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -11893,7 +11893,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[62]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">shape</span>
@@ -11908,7 +11908,7 @@ div#notebook {
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[62]:</div>
+<div class="prompt output_prompt">Out[3]:</div>
 
 
 
@@ -11927,7 +11927,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>39,871</strong> since 11/4/2015</p>
+<p><strong>39,586</strong> since 11/4/2015</p>
 
 </div>
 </div>
@@ -11943,7 +11943,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Text&#39;</span><span class="p">][</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Text&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;&lt;Media omitted&gt;&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">shape</span>
@@ -11958,7 +11958,7 @@ div#notebook {
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[64]:</div>
+<div class="prompt output_prompt">Out[4]:</div>
 
 
 
@@ -11994,7 +11994,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[65]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">active_members</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -12425,7 +12425,7 @@ kbZpStw8ywAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">inactive_members</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -12850,7 +12850,7 @@ YII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">count_words</span><span class="p">(</span><span class="n">text</span><span class="p">):</span>
@@ -12871,10 +12871,30 @@ YII=
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>/home/max/project/whatsapp-analyzer/lib/python3.5/site-packages/ipykernel/__main__.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[73]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data_words</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -12889,7 +12909,7 @@ YII=
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[73]:</div>
+<div class="prompt output_prompt">Out[8]:</div>
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
@@ -12953,7 +12973,7 @@ YII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[74]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
@@ -12975,7 +12995,7 @@ YII=
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;Name&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;Total words&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">10</span><span class="p">])</span>
@@ -13377,7 +13397,7 @@ gg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">active_members</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -13394,7 +13414,7 @@ gg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[80]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;Average&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">count_average</span><span class="p">)</span>
@@ -13788,7 +13808,7 @@ EEIIIUpMGpWEEEIIIYQQQgghRIlJo5IQQgghhBBCCCGEKDFpVBJCCCGEEEIIIYQQJfb/AC4L7E5G
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[81]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">wordcloud</span> <span class="k">import</span> <span class="n">WordCloud</span>
@@ -13811,7 +13831,7 @@ EEIIIUpMGpWEEEIIIYQQQgghRIlJo5IQQgghhBBCCCGEKDFpVBJCCCGEEEIIIYQQJfb/AC4L7E5G
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[87]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">wc</span> <span class="o">=</span> <span class="n">WordCloud</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="mi">1920</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">1080</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
@@ -13833,12 +13853,12 @@ EEIIIUpMGpWEEEIIIYQQQgghRIlJo5IQQgghhBBCCCGEKDFpVBJCCCGEEEIIIYQQJfb/AC4L7E5G
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[87]:</div>
+<div class="prompt output_prompt">Out[14]:</div>
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x7f169185c3c8&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x7f6d5cd5a860&gt;</pre>
 </div>
 
 </div>
@@ -15780,7 +15800,7 @@ CIIgCIIgYhYSPARBEARBEARBxCz/D8BoKUYn6N+jAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">vect</span> <span class="o">=</span> <span class="n">CountVectorizer</span><span class="p">(</span><span class="n">min_df</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">max_df</span><span class="o">=</span><span class="mi">1000</span><span class="p">)</span>
@@ -15806,12 +15826,12 @@ CIIgCIIgYhYSPARBEARBEARBxCz/D8BoKUYn6N+jAAAAAElFTkSuQmCC
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[88]:</div>
+<div class="prompt output_prompt">Out[15]:</div>
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x7f168c1ca6d8&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x7f6d5cdf4f60&gt;</pre>
 </div>
 
 </div>
@@ -17651,7 +17671,7 @@ CCGESFkS8AghhBBCCCFSlgQ8QgghhBBCiJT1/1Wbjjs5irwXAAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[89]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">vect</span> <span class="o">=</span> <span class="n">CountVectorizer</span><span class="p">(</span><span class="n">min_df</span><span class="o">=</span><span class="mi">15</span><span class="p">,</span> <span class="n">max_df</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
@@ -17677,12 +17697,12 @@ CCGESFkS8AghhBBCCCFSlgQ8QgghhBBCiJT1/1Wbjjs5irwXAAAAAElFTkSuQmCC
 
 
 <div class="output_area">
-<div class="prompt output_prompt">Out[89]:</div>
+<div class="prompt output_prompt">Out[16]:</div>
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;matplotlib.image.AxesImage at 0x7f168d2893c8&gt;</pre>
+<pre>&lt;matplotlib.image.AxesImage at 0x7f6d5cc61470&gt;</pre>
 </div>
 
 </div>
@@ -19689,7 +19709,7 @@ AboXLlT5A5O7AAAAAElFTkSuQmCC
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[90]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Short Date&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="o">.</span><span class="n">date</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%m/%Y&#39;</span><span class="p">))</span>
@@ -19703,476 +19723,16 @@ AboXLlT5A5O7AAAAAElFTkSuQmCC
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;real_date&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Short Date&#39;</span><span class="p">][</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;date_int&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">x</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;real_date&#39;</span><span class="p">)</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;real_date&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;real_date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%b/%y&#39;</span><span class="p">)</span>
-<span class="n">df</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[90]:</div>
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Date</th>
-      <th>Name</th>
-      <th>Text</th>
-      <th>Short Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>2015-04-11 23:22:00</td>
-      <td>Grace</td>
-      <td>dayum</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2015-04-11 23:53:00</td>
-      <td>‪+65 8555 0251‬</td>
-      <td>Free d mana!</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>2015-04-11 23:53:00</td>
-      <td>‪+65 8555 0251‬</td>
-      <td>?</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>2015-04-11 23:59:00</td>
-      <td>Grace</td>
-      <td>di ben and jerry's!</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2015-04-12 00:10:00</td>
-      <td>‪+65 8555 0251‬</td>
-      <td>&lt;Media omitted&gt;</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2015-04-12 00:10:00</td>
-      <td>‪+65 8555 0251‬</td>
-      <td>Yg ambil maths ma cs jawabannya apa?</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>2015-04-12 00:21:00</td>
-      <td>‪+65 9148 9532‬</td>
-      <td>Jwbnnya A bukan mot</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>2015-04-12 00:21:00</td>
-      <td>‪+65 8555 0251‬</td>
-      <td>Lol bil</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>2015-04-12 00:21:00</td>
-      <td>‪+65 9148 9532‬</td>
-      <td>17 juni ya mot. Wkwkwk</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>2015-04-12 00:22:00</td>
-      <td>‪+65 8555 0251‬</td>
-      <td>Mnurut gw bukan 😂</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>2015-04-12 00:24:00</td>
-      <td>Max K</td>
-      <td>July 16 mot</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>2015-04-12 00:25:00</td>
-      <td>‪+65 8555 0251‬</td>
-      <td>Gw gak tau sih yg bener apa actually 😂</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>2015-04-12 00:26:00</td>
-      <td>‪+65 9148 9532‬</td>
-      <td>May juni ud g mgkn y klo gt wkwww</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>2015-04-12 00:26:00</td>
-      <td>‪+65 9148 9532‬</td>
-      <td>Pdhal ultah gw june 😔</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>2015-04-12 00:26:00</td>
-      <td>‪+65 8555 0251‬</td>
-      <td>Lolll bil. Kta gw 16 july</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>2015-04-12 00:26:00</td>
-      <td>Karin</td>
-      <td>September kali</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>2015-04-12 00:27:00</td>
-      <td>‪+65 9148 9532‬</td>
-      <td>Iya kalo may ato june a bakal blg ke b "you mi...</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>2015-04-12 00:27:00</td>
-      <td>‪+65 9148 9532‬</td>
-      <td>😞</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>2015-04-12 00:32:00</td>
-      <td>‪+65 9220 4047‬</td>
-      <td>Bulannya soalnya kan pasti</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>2015-04-12 00:32:00</td>
-      <td>‪+65 9220 4047‬</td>
-      <td>July atau aug</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>2015-04-12 00:33:00</td>
-      <td>‪+65 9220 4047‬</td>
-      <td>S bernard jd tw krn it</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>2015-04-12 00:33:00</td>
-      <td>‪+65 9220 4047‬</td>
-      <td>Trus kalau tgl nya 14 s bernard tetep gk bs nebak</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>2015-04-12 00:35:00</td>
-      <td>‪+65 8555 0251‬</td>
-      <td>Tp ada yg flaw mnurut gw 😂</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>2015-04-12 09:29:00</td>
-      <td>Topaz</td>
-      <td>Breakfast anyome?</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>24</th>
-      <td>2015-04-12 09:30:00</td>
-      <td>‪+65 9220 4047‬</td>
-      <td>Yuk paz</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>2015-04-12 09:32:00</td>
-      <td>Dea</td>
-      <td>Yuk</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>2015-04-12 09:32:00</td>
-      <td>Dea</td>
-      <td>Gw nyusul ye. Mau choppe tmpt first</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>27</th>
-      <td>2015-04-12 09:33:00</td>
-      <td>‪+65 9220 4047‬</td>
-      <td>Yuk quiki</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>2015-04-12 09:34:00</td>
-      <td>Topaz</td>
-      <td>Breakfast ga boleh cepet2 to</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>2015-04-12 09:34:00</td>
-      <td>Topaz</td>
-      <td>Hrs dinikmati</td>
-      <td>2015-04-01</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>39556</th>
-      <td>2017-02-13 13:00:00</td>
-      <td>Tasya</td>
-      <td>Me</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39557</th>
-      <td>2017-02-13 13:02:00</td>
-      <td>Toto</td>
-      <td>^yeti sighting</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39558</th>
-      <td>2017-02-13 15:26:00</td>
-      <td>Cindy Amelia</td>
-      <td>&lt;Media omitted&gt;</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39559</th>
-      <td>2017-02-13 15:28:00</td>
-      <td>Renaldo Hermawan</td>
-      <td>ha ini apaan</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39560</th>
-      <td>2017-02-13 15:28:00</td>
-      <td>Renaldo Hermawan</td>
-      <td>gua ikut deh</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39561</th>
-      <td>2017-02-13 15:29:00</td>
-      <td>Cindy Amelia</td>
-      <td>Si @6581429830 juga mau ikut katanya</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39562</th>
-      <td>2017-02-13 15:43:00</td>
-      <td>Evelyn</td>
-      <td>gw juga ikut deh😂😂😂</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39563</th>
-      <td>2017-02-13 15:46:00</td>
-      <td>Marco</td>
-      <td>🤔</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39564</th>
-      <td>2017-02-13 15:46:00</td>
-      <td>Benaya</td>
-      <td>summon @6593737063</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39565</th>
-      <td>2017-02-13 15:46:00</td>
-      <td>Cindy Amelia</td>
-      <td>Toto ada midterm ben</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39566</th>
-      <td>2017-02-13 15:46:00</td>
-      <td>Cindy Amelia</td>
-      <td>Hikz</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39567</th>
-      <td>2017-02-13 15:46:00</td>
-      <td>Marco</td>
-      <td>@6593229963 ikut ga?</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39568</th>
-      <td>2017-02-13 15:46:00</td>
-      <td>Benaya</td>
-      <td>yah</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39569</th>
-      <td>2017-02-13 15:47:00</td>
-      <td>Benaya</td>
-      <td>gpp to payload selalu available</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39570</th>
-      <td>2017-02-13 16:07:00</td>
-      <td>Karin</td>
-      <td>W7 ada 5 midterms leh</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39571</th>
-      <td>2017-02-13 16:08:00</td>
-      <td>Karin</td>
-      <td>My morality says its best to study at home</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39572</th>
-      <td>2017-02-13 16:36:00</td>
-      <td>Cindy Amelia</td>
-      <td>@6586932864 ini this Friday ces</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39573</th>
-      <td>2017-02-13 16:36:00</td>
-      <td>Cindy Amelia</td>
-      <td>Bukan week 7</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39574</th>
-      <td>2017-02-13 16:36:00</td>
-      <td>Cindy Amelia</td>
-      <td>Lol</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39575</th>
-      <td>2017-02-13 16:36:00</td>
-      <td>Evelyn</td>
-      <td>kok lu nge tag ida si</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39576</th>
-      <td>2017-02-13 16:37:00</td>
-      <td>Cindy Amelia</td>
-      <td>HAHA</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39577</th>
-      <td>2017-02-13 16:37:00</td>
-      <td>Cindy Amelia</td>
-      <td>salah nge tag</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39578</th>
-      <td>2017-02-13 16:37:00</td>
-      <td>Cindy Amelia</td>
-      <td>@6593229963</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39579</th>
-      <td>2017-02-13 16:38:00</td>
-      <td>Karin</td>
-      <td>HAHAA</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39580</th>
-      <td>2017-02-13 16:39:00</td>
-      <td>Karin</td>
-      <td>Duh mel gw ga spinter lu yg bljrny bisa ngebut...</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39581</th>
-      <td>2017-02-13 16:48:00</td>
-      <td>Cindy Amelia</td>
-      <td>My morality says work hard pray hard 🚎</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39582</th>
-      <td>2017-02-13 16:52:00</td>
-      <td>Karin</td>
-      <td>🙊🙊</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39583</th>
-      <td>2017-02-13 19:11:00</td>
-      <td>Benaya</td>
-      <td>apparently gw dapet free one for one again lol</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39584</th>
-      <td>2017-02-13 19:11:00</td>
-      <td>Benaya</td>
-      <td>Expiring 17 feb</td>
-      <td>2017-02-01</td>
-    </tr>
-    <tr>
-      <th>39585</th>
-      <td>2017-02-13 19:11:00</td>
-      <td>Benaya</td>
-      <td>Lemme know kalo ada yang mau</td>
-      <td>2017-02-01</td>
-    </tr>
-  </tbody>
-</table>
-<p>39586 rows × 4 columns</p>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[94]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;real_date&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;count&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
@@ -20656,7 +20216,7 @@ FAAAAAAAAGzx/wDK99FwMXGKAQAAAABJRU5ErkJggg==
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[95]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;Short Time&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="o">.</span><span class="n">time</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%H&#39;</span><span class="p">))</span>
@@ -20670,191 +20230,16 @@ FAAAAAAAAGzx/wDK99FwMXGKAQAAAABJRU5ErkJggg==
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;real_date&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;time&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Short Time&#39;</span><span class="p">][</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;time_int&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">x</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 <span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">&#39;real_date&#39;</span><span class="p">)</span>
 <span class="n">df</span><span class="p">[</span><span class="s1">&#39;real_date&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;real_date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%H&#39;</span><span class="p">)</span>
-<span class="n">df</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-<div class="prompt output_prompt">Out[95]:</div>
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>count</th>
-      <th>time</th>
-      <th>real_date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>11</th>
-      <td>1609</td>
-      <td>-2208988800000000000</td>
-      <td>00</td>
-    </tr>
-    <tr>
-      <th>16</th>
-      <td>511</td>
-      <td>-2208985200000000000</td>
-      <td>01</td>
-    </tr>
-    <tr>
-      <th>18</th>
-      <td>200</td>
-      <td>-2208981600000000000</td>
-      <td>02</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>166</td>
-      <td>-2208978000000000000</td>
-      <td>03</td>
-    </tr>
-    <tr>
-      <th>21</th>
-      <td>33</td>
-      <td>-2208974400000000000</td>
-      <td>04</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>8</td>
-      <td>-2208970800000000000</td>
-      <td>05</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>29</td>
-      <td>-2208967200000000000</td>
-      <td>06</td>
-    </tr>
-    <tr>
-      <th>20</th>
-      <td>127</td>
-      <td>-2208963600000000000</td>
-      <td>07</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>503</td>
-      <td>-2208960000000000000</td>
-      <td>08</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>1165</td>
-      <td>-2208956400000000000</td>
-      <td>09</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>1578</td>
-      <td>-2208952800000000000</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>2857</td>
-      <td>-2208949200000000000</td>
-      <td>11</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>3833</td>
-      <td>-2208945600000000000</td>
-      <td>12</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2747</td>
-      <td>-2208942000000000000</td>
-      <td>13</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>2011</td>
-      <td>-2208938400000000000</td>
-      <td>14</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>1447</td>
-      <td>-2208934800000000000</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>1601</td>
-      <td>-2208931200000000000</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>2661</td>
-      <td>-2208927600000000000</td>
-      <td>17</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>3338</td>
-      <td>-2208924000000000000</td>
-      <td>18</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3083</td>
-      <td>-2208920400000000000</td>
-      <td>19</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>1861</td>
-      <td>-2208916800000000000</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>2478</td>
-      <td>-2208913200000000000</td>
-      <td>21</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>3003</td>
-      <td>-2208909600000000000</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>2737</td>
-      <td>-2208906000000000000</td>
-      <td>23</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[96]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;real_date&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;count&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
